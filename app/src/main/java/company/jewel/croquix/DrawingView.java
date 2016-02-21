@@ -32,7 +32,7 @@ public class DrawingView extends View {
         mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setStrokeJoin(Paint.Join.ROUND);
         mPaint.setStrokeCap(Paint.Cap.ROUND);
-        mPaint.setStrokeWidth(20);
+        mPaint.setStrokeWidth(10);
 
         mPath = new Path();
         mBitmapPaint = new Paint();
